@@ -26,9 +26,9 @@ class MyPassportClass:
             return False
 
         # TODO: Complete the following block. 
-        
-        # Assume all is valid at first, then as soon as you detect one invalid
-        # one, whole thing becomes invalid.
+
+        # Assume all is valid at first, then as soon as one invalid
+        # is detected, whole thing becomes invalid.
         all_valid = True 
 
         # Now iterate over each key-value pair to check
@@ -77,7 +77,7 @@ class MyPassportClass:
         It should take a list of strings `self.entry` and process each string
         into key-value pairs. 
 
-        With the way you have defined the attributes of this class, you
+        With the way the attribute are defined in this class, I
         do not have to pass anything into this method, and it doesn't have
         to return anything.
         """
@@ -114,7 +114,7 @@ def main():
             if this_passport.is_valid():
                 count += 1
             entry = []
-    print(count)    # This is your final answer
+    print(count)    # Final answer
 
 
 if __name__ == "__main__":

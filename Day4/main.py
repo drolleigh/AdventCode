@@ -110,7 +110,7 @@ def main():
             if this_passport.is_valid():
                 count += 1
             entry = []
-    print(count)    # This is your final answer
+    print(count)    #  Final answer
 
 
 if __name__ == "__main__":
